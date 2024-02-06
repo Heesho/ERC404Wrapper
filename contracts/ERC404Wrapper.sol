@@ -17,8 +17,6 @@ interface IERC404 {
 contract ERC404Wrapper is ERC404 {
 
     address public immutable collection;
-    string public baseTokenURI;
-
     uint256[] public ids;
     mapping(uint256 => int256) public index_Id;
 
